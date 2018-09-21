@@ -1,0 +1,5 @@
+- name: install application
+  git:
+    repo: https://github.com/AiAlex/application.git
+    dist: "/home/alex/application"
+    update: yes    

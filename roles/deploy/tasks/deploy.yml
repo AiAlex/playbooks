@@ -1,0 +1,5 @@
+- name: deliver application config
+  git:
+    repo: https://github.com/AiAlex/configs.git
+    dest: "home/alex/application"
+    update: yes    
